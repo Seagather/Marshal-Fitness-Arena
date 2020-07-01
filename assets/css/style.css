@@ -5,16 +5,15 @@ body {
     font-family: "Exo", sans-serif;
     background-color: #fffff2;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 390;
     margin: 0;
-
+    height: 100%;
 }
 
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
@@ -38,7 +37,7 @@ h5 {
 .top-bar{
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 0px;
     z-index: 1;
 }
 
@@ -78,7 +77,7 @@ header {
     height: 2px;
     display: block;
     clear: both;
-    background-color: #800000;
+    background-color:#e84610;
     margin: auto;
 }
 
@@ -110,13 +109,12 @@ header {
 
 .block-divider {
     height: 7px;
-    width: 250px;
+    width: 230px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ffc64b;
+    background-color: hsl(41, 100%, 55%);
     border: 0;
-    border-radius: 18px;
-    
+    border-radius: 18px;   
 }
 
 
@@ -135,9 +133,11 @@ header {
 }
 
 .contact-box {
-    background-color: #8b24b3;
+    background-color: #2e074e;
     color: white;
-    min-height: 500px; 
+    min-height: 500px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0, 0, 0, 0.50)); 
    
 }
 
@@ -153,13 +153,13 @@ header {
     margin-right: 15px;
 }
 
-.btn-info {
-    background-color: #ffc64b;
+.btn-sub {
+    background-color: hsl(41, 100%, 55%);
     color: white;
     width: 100%;
 }
 
-.btn-info:hover {
+.btn-sub:hover {
     background-color:  #333;
     color: white;
 }
@@ -186,7 +186,7 @@ header {
 }
 
 .button {
-	background-color: #ffc64b;
+	background-color: hsl(41, 100%, 55%);
 	display:inline-block;
 	color: white;
 	padding: 20px;
@@ -200,6 +200,53 @@ header {
 
 .button:hover {background: #333;}
 
+.contact-us h5{
+    font-size:45px;
+     font-weight:600;
+}
+
+.contact-us p{
+    font-size:25px;
+    font-style:italic;   
+}
+
+.row label + * {
+    color: red;     
+}
+
+.row label{
+    font-weight:bold;
+    float: left;
+}
+
+.contact-form {
+	padding-left:15%;
+	padding-right:15%; 
+}
+
+.form-button{
+    position: relative;
+    top: 1px;
+    background-color: hsl(41, 100%, 55%);
+    border-radius: 8px;
+    /*display: inline-block;*/
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.map-container{
+	overflow: hidden;
+}
+
+.i-map {
+    font-size: 30px;
+    color: #1EA362;
+    padding-left: 0px;
+}
+
+
 /* ----------------------------------------Footer */
 
 footer {
@@ -208,11 +255,12 @@ footer {
     background-size: 100% 150%;	  
 }
 
+
 footer {
     background-color: black;
     color: #fafafa;
-    min-height: 500px;
-    margin: 0;
+    min-height: 400px;
+   
 }
 
 .social-links {
@@ -221,12 +269,12 @@ footer {
 
 
 .social-links li a i {
-    width: 43px;
-    height: 43px;
+    width: 37px;
+    height: 37px;
     padding: 12px 0;
-    border-radius: 50%;
-    font-size: 30px;
-    line-height: 20px;
+    border-radius: 40%;
+    font-size: 27px;
+    line-height: 15px;
     text-align: center;
     color: #fafafa;
     background: black;
@@ -260,6 +308,49 @@ footer {
     text-align: justify;
     position: relative;
 }
+
+.footer-container{
+     background: #000;
+}
+
+
+.row-footer p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.foot-social h4 {
+    margin-top: 50px;
+    position: relative;
+}
+/*
+.row-footer
+{
+    margin: 40px auto 20px;
+}
+.row-footer p
+{
+    color: #fff;
+    font-size: 16px;
+}
+.foot-social .fa
+{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background: #EE6059;
+    position: relative;
+}
+.fa-facebook1::before, .fa-twitter1::before, .fa-instagram1::before
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+*/
 
 .video-style{
 	position: relative; 
@@ -315,7 +406,6 @@ footer {
 
 
 .text {
-  
   color: black;
   font-size: 16px;
   padding: 16px 32px;
@@ -323,28 +413,62 @@ footer {
 
 table {
   font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 20%;
+  border-collapse: separate;
+  width: 10%;
+  opacity: 1;
+  font-size: 15px;
+  position: relative; 
+
 }
 
 .td-left,
 .td-right {
-  border: 3px solid white;
+  border: 3px solid none;
   text-align: left;
-  padding: 8px; 
+  padding: 3px;
 }
 
-.td-left{background-color:#e84610;
+.td-left{
+    background-color:#e84610;
+    color: white;
 }
-.td-right{background-color:#dddddd;
+.td-right{
+    background-color:white;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 27vw;
+    object-fit: cover;
+    position: relative; 
 }
 
 .classes-container {
-    
-    margin-bottom: 7%;   
+	padding-left:9%;
+	padding-right:9%; 
 }
 
-.classes-div {
+.card-title {
+    text-align: center; 
+}
+.btn-light {
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    border-radius: 60px;
+    /*background-color: #fffff2;*/
+    border-color:hsl(41, 100%, 55%);
+    font-weight:900;
+      
+}
+
+.btn-light:hover {
+    background: #fffff9;
+}
+
+
+/*.classes-div {
     padding-top: 7px;
     border: 2px solid rgba(2, 2, 1, 0.2);
     background-color: #f9f9f9;
@@ -353,14 +477,14 @@ table {
 
 .classes-div a {
     color: #408c99;
-}
+}*/
 
 body, html {
   height: 100%;
 }
 .bg {
   /* The image used */
-  background-image: url("../images/HIIT.jpeg");
+  /*background-image: url("../images/hiit.jpeg");*/
 
   /* Full height */
   height: 100%;
@@ -389,8 +513,50 @@ carousel-indicators li {
     margin-left: 6px;
     margin-right: 6px;
 }
- 
 
+/* Jumbotron */
+
+.jumbotron {
+    background-color: none;
+    
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  border: none;
+  background-image:
+  linear-gradient(to bottom, rgba(97, 73, 7, 0.144), rgba(245, 242, 43, 0.123));
+  
+}
+
+.card-img-top {
+  opacity: 1;
+  
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-image:
+  linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80));
+  background-size: cover;
+}
+
+.card:hover .image {
+  opacity: 0.3;
+}
+
+.card:hover .middle {
+  opacity: 1;
+}
 
 
 
