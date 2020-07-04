@@ -172,7 +172,7 @@ header {
     margin-top: 10px;
 }
 
-#cover-text{
+.cover-text{
   width: 300px;
   height: 280px;
 
@@ -181,17 +181,16 @@ header {
 
   background-color: #1d2527;
   position: relative;
-  z-index:1;
-  
+  z-index:1; 
 }
 
-#cover-text h1{
+.cover-text h1{
     color: #D05F59;
     font-weight: 900;
     font-size:100px;
 }
 
-#cover-text p {
+.cover-text p {
     color: #fafafa;
     font-style: italic;
     font-size:15px;
@@ -212,7 +211,8 @@ header {
     color: white;
     min-height: 500px;
     background-image:
-    linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0, 0, 0, 0.50)); 
+    linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0, 0, 0, 0.50));
+    z-index:1; 
 }
 
 .contact-details{
@@ -599,8 +599,7 @@ carousel-indicators li {
 /* Jumbotron */
 
 .jumbotron {
-    background: none;
-    
+    background: none;   
 }
 
 .middle {
