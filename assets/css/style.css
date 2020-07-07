@@ -36,7 +36,7 @@ h4 {
 
 .top-bar{
     position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0px;
     z-index: 1;
 }
@@ -181,7 +181,7 @@ header {
 
   background-color: #1d2527;
   position: relative;
-  z-index:1; 
+ 
 }
 
 .cover-text h1{
@@ -588,12 +588,16 @@ body, html {
     margin: auto;  
   }
 
-carousel-indicators li {
+.carousel-indicators li {
     width: 6px;
     height: 6px;
     border-radius: 50%;
     margin-left: 6px;
     margin-right: 6px;
+}
+
+.carousel-indicators{
+     z-index: -1;
 }
 
 /* Jumbotron */
