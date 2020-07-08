@@ -1,5 +1,4 @@
-<a href="logo.png"><img src="assets/images/logo.png" style="margin: 0; size"></a>
-
+<a href="logo.png"><img src="assets/images/logo-color.png" alt="marshal-logo" width="450" height="300" style="margin: 0; background-size:cover;"></a>
 # MARSHAL FITNESS ARENA WEBSITE
 ## DESCRIPTION
 
