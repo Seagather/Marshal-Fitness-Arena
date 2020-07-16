@@ -1,179 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css"/>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <script src="https://kit.fontawesome.com/58e618022f.js" crossorigin="anonymous"></script>
-        <title>Marshal Fitness Center</title>
-    </head>
-    <body>
-        <!---Header--->
-        <header class="top-bar fixed-top">
-            <div class="nav-container container-fluid">
-                <nav class="navbar navbar-expand-md navbar-dark">
-                    <a class="navbar-brand logo" href="index.html">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/58e618022f.js" crossorigin="anonymous"></script>
+    <title>Marshal Fitness Center</title>
+</head>
+
+<body>
+    <!-- Header-->
+    <header class="top-bar fixed-top">
+        <div class="nav-container container-fluid">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand logo" href="index.html">
                         <img src="assets/images/logo.png" alt="marshal logo"/>
                     </a>
-                    <!-- Toggle nav Icon on Mobile-->
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Toggle nav Icon on Mobile-->
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <!-- Navigation -->
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul id="nav" class="navbar-nav ml-auto">
-                            <li class="nav-item text-center"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item text-center"><a class="nav-link" href="gallery.html">Marshal Gallery</a></li>
-                            <li class="nav-item text-center"><a class="nav-link" href="classes.html">Classes</a></li>
-                            <li class="nav-item text-center"><a class="nav-link active" href="contact.html">Contact Us<span class="sr-only">(current)</span></a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!-- Main Content -->
-        <section class="page-content">
-            <div class="container content-container">
-                <div class="text-center">
-                    <h1 class="center-title uppercase"><strong>CONTACT US</strong></h1>
+                <!-- Navigation -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul id="nav" class="navbar-nav ml-auto">
+                        <li class="nav-item text-center"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item text-center"><a class="nav-link" href="gallery.html">Marshal Gallery</a></li>
+                        <li class="nav-item text-center"><a class="nav-link" href="classes.html">Classes</a></li>
+                        <li class="nav-item text-center"><a class="nav-link active" href="contact.html">Contact Us<span class="sr-only">(current)</span></a></li>
+                    </ul>
                 </div>
-                <hr class="block-divider">
+            </nav>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <section class="page-content">
+        <div class="container content-container">
+            <div class="text-center">
+                <h1 class="center-title uppercase"><strong>CONTACT US</strong></h1>
             </div>
-            <main>
-		<section class="contact-form-box">
-			<div class="container pt-5">
-				<div class="row text-center contact-us">
-					<div class="col">
-						<h5 class="bold-text">Leave Us Your Info</h5>
+            <hr class="block-divider">
+        </div>
+
+        <section class="contact-form-box">
+            <div class="container pt-5">
+                <div class="row text-center contact-us">
+                    <div class="col">
+                        <h5 class="bold-text">Leave Us Your Info</h5>
                         <p>And we will get back to you.</p>
-					</div>
-				</div>
-			</div>
-			<div class="container pt-5 pb-5 contact-form">
-				<!-- Responsive contact form with validation -->
-				<form>
-					<div class="row">
-						<div class="form-group col-12 col-md-6">
-                        <label for="fname">Full Name</label><label for="*">*</label>
-							<input type="text" class="form-control" id="name" placeholder="Full Name" required="">
                     </div>
-							<div class="form-group col-12 col-md-6">
-                            <label for="mail">E-mail Address</label><label for="*">*</label>
-								<input type="email" class="form-control" id="email" placeholder="Email" required="">
-                        </div>
-								<div class="form-group col-12">
-                                    <p>Feel free to ask a question or simply leave a comment</p>
-                                    <label for="subject">Comments/Questions</label><label for="*">*</label>
-										<textarea id="message" rows="7" class="form-control" placeholder="Write something..." required=""></textarea>
-									</div>
-								</div><div class="form-button">
-								<button type="submit" class="btn btn-sub btn-lg text-uppercase">Submit</button></div>
-				</form>
-			</div>
-		</section>
-	</main>
-    <!-----Google Map --->
-
-<div class="map-container">
-<div id="map-overlay"></div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.9786116607133!2d6.135151315684287!3d46.190984292673804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b29cc48f6fb%3A0xb731fc5341b3dad5!2sRue%20Gustave-Revilliod%205%2C%201227%20Gen%C3%A8ve!5e0!3m2!1sen!2sch!4v1579509848928!5m2!1sen!2sch" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""> 
-</iframe>
-</div>
-</section>
-<div class="col-sm-6 col-md-6 col-lg-4">
-                <h3 class="footer-text">Find Us:</h3>
-                 <p class="footer-text"><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.9786116607133!2d6.135151315684287!3d46.190984292673804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b29cc48f6fb%3A0xb731fc5341b3dad5!2sRue%20Gustave-Revilliod%205%2C%201227%20Gen%C3%A8ve!5e0!3m2!1sen!2sch!4v1579509848928!5m2!1sen!2sch" target="_blank"><i class="fas fa-map-marked-alt i-map" aria-hidden="true"></i></a> 5 Rue Gustave-Revilliod 1227 Les Acacias, GE, CH</p>
-
+                </div>
             </div>
-        
-        <section class="contact-box">
-            <div class="container">
-			<div class="row text-center">
-				<!--<div class="col-12 page-header">
-					<h3 class="text-uppercase py-5"><strong>Get in touch</strong></h3>
-                    <hr class="block-divider"><br>
-				</div>-->
-			</div>
+            <div class="container pt-5 pb-5 contact-form">
+                <!-- Responsive contact form with validation -->
+                <form>
+                    <div class="row">
+                        <div class="form-group col-12 col-md-6">
+                            <label for="fname">Full Name<span>*</span></label>
+                            <input type="text" class="form-control" id="fname" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label for="email">E-mail Address<span>*</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group col-12">
+                            <p>Feel free to ask a question or simply leave a comment</p>
+                            <label for="message">Comments/Questions<span>*</span></label>
+                            <textarea id="message" rows="7" class="form-control" placeholder="Write something..." required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit" class="btn btn-sub btn-lg text-uppercase">Submit</button></div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Google Map-->
+
+        <div class="map-container">
+            <div class="map-overlay"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.9786116607133!2d6.135151315684287!3d46.190984292673804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b29cc48f6fb%3A0xb731fc5341b3dad5!2sRue%20Gustave-Revilliod%205%2C%201227%20Gen%C3%A8ve!5e0!3m2!1sen!2sch!4v1579509848928!5m2!1sen!2sch"
+                aria-label="Location Map">
+</iframe>
+        </div>
+    </section>
+    <div class="col-sm-6 col-md-6 col-lg-4">
+        <h4 class="locate"><strong>Find Us:</strong></h4>
+        <p class="locate"><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.9786116607133!2d6.135151315684287!3d46.190984292673804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b29cc48f6fb%3A0xb731fc5341b3dad5!2sRue%20Gustave-Revilliod%205%2C%201227%20Gen%C3%A8ve!5e0!3m2!1sen!2sch!4v1579509848928!5m2!1sen!2sch"
+                target="_blank"><i class="fas fa-map-marked-alt i-map" aria-hidden="true"></i></a> 5 Rue Gustave-Revilliod 1227 Les Acacias, GE, CH</p>
+    </div>
+    <section class="contact-box">
+        <div class="container">
+            <div class="row text-center">
+            </div>
             <!-- Personnel contact sections containing opening hours, location and newsletter signup-->
-			<div class="row contact-details">
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<div class="opening-info">
-						<h4 class="font-weight-bold pb-1 hour-header">Opening hours</h4><br>
-						<table class="table opening-hours">
+            <div class="row contact-details">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="opening-info">
+                        <h4 class="font-weight-bold pb-1 hour-header">Opening hours</h4>
+                        <table class="table opening-hours mt-4">
                             <tbody>
                                 <tr>
                                     <td>Monday to Friday:</td>
                                     <td>24/7</td>
                                 </tr>
                                 <tr>
-							        <td>Saturday and Sunday:</td>
+                                    <td>Saturday and Sunday:</td>
                                     <td>6am - 10pm</td>
                                 </tr>
                                 <tr>
-							        <td>Official Holidays:</td>
+                                    <td>Official Holidays:</td>
                                     <td>10am - 8pm</td>
                                 </tr>
-						</tbody>
-				    </table>
-				</div>
-			</div>    
-					
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div class="contact-info">
-					<h4 class="font-weight-bold pb-1 pr-5 contact-header">Contact details</h4>
-						<ul><br>
-							<li><i class="fas fa-home" aria-hidden="true"></i>5 Rue Gustave-Revilliod, Les Acacias</li><br>
-							<li><i class="fas fa-phone" aria-hidden="true"></i>+41-77-961-89-40</li><br>
-							<li><i class="fas fa-envelope" aria-hidden="true"></i>locatemarshalgym.com</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<h4 class="font-weight-bold pb-1 form-header">Newsletter</h4><br>
-					<form class="newsletter-signup">
-						<div class="form-group">
-							<p>Get our best content and offers direct to your inbox</p>
-							<input type="email" class="form-control" id="newsletter-signup" placeholder="Your email">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="contact-info">
+                        <h4 class="font-weight-bold pb-1 contact-header">Contact details</h4>
+                        <ul>
+                            <li><i class="fas fa-home mt-4" aria-hidden="true"></i>5 Rue Gustave-Revilliod, Les Acacias</li>
+                            <li><a class="link" aria-label="Phone number" href="tel:+41-77-961-89-40"><i class="fas fa-phone mt-4"></i>+41-77-961-89-40</a></li>
+                            <li><a class="link" aria-label="email" href="mailto:locatemarshalgym.com"><i class="fas fa-envelope mt-4"></i>locatemarshalgym.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h4 class="font-weight-bold pb-1 form-header">Newsletter</h4>
+                    <form class="newsletter-signup mt-4">
+                        <div class="form-group">
+                            <p>Get our best content and offers direct to your inbox</p>
+                            <input type="email" class="form-control" id="newsletter-signup" placeholder="Your email" required>
                         </div>
-						<button type="submit" class="btn btn-sub text-uppercase">Subscribe</button>
+                        <button type="submit" class="btn btn-sub text-uppercase">Subscribe</button>
                     </form>
-				</div>
-			</div>
-            
+                </div>
+            </div>
         </div>
-	</section>
-    
+    </section>
+
 
     <footer>
         <div class="container">
             <div class="row row-footer">
                 <div class="col-md-8 col-sm-6 col-xs-12">
-                    <p> © Copyright 2020   | Theme by Marshal  |   All Rights Reserved   |</p>
+                    <p> © Copyright 2020 | Theme by Marshal | All Rights Reserved |</p>
                 </div>
-                 <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="foot-social">
-                       <h4>Connect with us</h4>
-					<ul class="list-inline social-links py-2">
-						<li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit us on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit us on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Visit us on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit us on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                        <li class="list-inline-item"><a href="https://youtube.com/" target="_blank" rel="noopener" aria-label="Visit us on YouTube"><i class="fab fa-youtube-square" aria-hidden="true"></i></a></li>
-                    </ul>
+                        <h4>Connect with us</h4>
+                        <ul class="list-inline social-links py-2">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit us on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Visit us on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Visit us on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit us on Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="https://youtube.com/" target="_blank" rel="noopener" aria-label="Visit us on YouTube"><i class="fab fa-youtube-square" aria-hidden="true"></i></a></li>
+                        </ul>
                         <div class="up up-opa"></div>
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
     </footer>
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    </body>
-</html>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
 
+</html>

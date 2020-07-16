@@ -1,6 +1,29 @@
-<a href="logo.png"><img src="assets/images/logo-color.png" alt="marshal-logo" width="450" height="300" style="margin: 0; background-size:cover;"></a>
+<a href="https://github.com"><img src="assets/images/logo-color.png" alt="marshal-logo" width="420" height="270" style="margin: 0; background-size:cover;"></a>
 # MARSHAL FITNESS ARENA WEBSITE
 ## DESCRIPTION
+## DEPLOYMENT AND DEMO
+Website has been deployed to <a href="https://github.com">Github Pages.</a>
+## WIREFRAME
+The skeletal framework of this website was designed using <a href="https://balsamiq.com">Balsamiq</a> as a visual guide to represent the page schematic and screen blueprint.
+
+Links to final version of the wireframe can be found below:
+<ul>
+<li><a href="https:/marshal-fitness-arena/wireframes/marshal-fitness.pdf">Wireframe Final Version</a></li>
+</ul>
+
+## UX
+
+I used <a href="https://tinypng.com">tinypng.com</a> which utilised smart lossy compression techniques to reduce the file size of PNG and JPG files. This shrunk the image size to 41%.
+the site uses less bandwith and load faster
+<a href="https://github.com"><img src="assets/images/image-compressor.png" alt="image-compressor">
+
+I have opted for
+<ul>
+<li>Aba</li>
+<li>Otu</li>
+<li>Onitsha</li>
+<ul>
+
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
