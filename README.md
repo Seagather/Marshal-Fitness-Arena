@@ -1,23 +1,25 @@
-<a href="https://github.com"><img src="assets/images/logo-color.png" alt="marshal-logo" width="420" height="270" style="margin: 0; background-size:cover;"></a>
+<a href="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/logo-color.png"><img src="assets/images/logo-color.png" alt="marshal-logo" width="420" height="270" style="margin: 0; background-size:cover;"></a>
 # MARSHAL FITNESS ARENA WEBSITE
 ## DESCRIPTION
 ## DEPLOYMENT AND DEMO
-Website has been deployed to <a href="https://github.com">Github Pages.</a>
+Website has been deployed to <a href="https://seagather.github.io/Marshal-Fitness-Arena/">Github Pages.</a>
 ## WIREFRAME
 The skeletal framework of this website was designed using <a href="https://balsamiq.com">Balsamiq</a> as a visual guide to represent the page schematic and screen blueprint.
 
 Links to final version of the wireframe can be found below:
 <ul>
-<li><a href="https:/marshal-fitness-arena/wireframes/marshal-fitness.pdf">Wireframe Final Version</a></li>
+<li><a href="https://seagather.github.io/Marshal-Fitness-Arena/wireframes/marshal-fitness-wireframe.pdf">Wireframe Final Version</a></li>
 </ul>
 
 ## UX
+user experience
+<a href="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/responsive.png"><img src="assets/images/responsive.png" alt="responsive">
 
 I used <a href="https://tinypng.com">tinypng.com</a> which utilised smart lossy compression techniques to reduce the file size of PNG and JPG files. This shrunk the image size to 41%.
 the site uses less bandwith and load faster
-<a href="https://github.com"><img src="assets/images/image-compressor.png" alt="image-compressor">
+<a href="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/image-compressor.png"><img src="assets/images/image-compressor.png" alt="image-compressor">
 
-I have opted for
+I decided to use 
 <ul>
 <li>Aba</li>
 <li>Otu</li>
