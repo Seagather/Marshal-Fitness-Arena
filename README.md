@@ -1,6 +1,11 @@
 <a href="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/logo-color.png"><img src="assets/images/logo-color.png" alt="marshal-logo" width="420" height="270" style="margin: 0; background-size:cover;"></a>
 # MARSHAL FITNESS ARENA WEBSITE
 ## DESCRIPTION
+This is an imaginary gym website created in partial fufillment of the requirements for Diploma in Software Development.
+The idea is to captivate users at a glance as well as advancing the site owner's services.
+
+At Marshal Fitness Arena, We know how important your goals are to you, sometimes, it's a struggle to bring your best effort to your gym session. whether you're trying to lose weight, train for a race, keep your stress in check, or any of the other worthwhile
+reasons to make fitness a part of your life, staying consistent is key, even when you really don't feel like it, we work up the motivation for you at an affordable rate.
 ## DEPLOYMENT AND DEMO
 Website has been deployed to <a href="https://seagather.github.io/Marshal-Fitness-Arena/">Github Pages.</a>
 ## WIREFRAME
@@ -12,53 +17,59 @@ Links to final version of the wireframe can be found below:
 </ul>
 
 ## UX
-user experience
-<a href="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/responsive.png"><img src="assets/images/responsive.png" alt="responsive">
+The focus here is ensuring that users find value in what the gym provides, usable, useful, desirable, findable, credible and accessible
+<ul>
+<li>Home Page: subtly displays an embed-responsive-16by9 video-style of unisex with dark overlay on top and the <strong>"About Us"</strong> information</li>
+<li>Gallery Page: maximizes Bootstrap4 Carousel to showcase the training ground cum gym facilities and the company's ethos
+<li>Classes Page: a Grid system with inner card elements presents different classes and benefits</li>
+<li>Contact Page: Contact page contains a contact form for users with a google Map location</li>
+</ul>
+
+## User experience
+
+<a href="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/responsive.png"><img src="assets/images/responsive.png" alt="responsive"></a>
 
 I used <a href="https://tinypng.com">tinypng.com</a> which utilised smart lossy compression techniques to reduce the file size of PNG and JPG files. This shrunk the image size to 41%.
-the site uses less bandwith and load faster
-<a href="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/image-compressor.png"><img src="assets/images/image-compressor.png" alt="image-compressor">
+the site uses less bandwith and load faster.
 
-I decided to use 
+<a href="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/image-compressor.png"><img src="assets/images/image-compressor.png" alt="image-compressor"></a>
+
+## Visual identity
 <ul>
-<li>Aba</li>
-<li>Otu</li>
-<li>Onitsha</li>
+<li><a href="https://logomaker.com">LogoMaker</a> was used for the logo design</li>
+</ul>
+
+## Users Stories
+
+Gym Users:
 <ul>
+<li>As a user, I want to register and enroll in a beffiting class session</li>
+<li>As a user, I want to access the gym training grounds and facilities</li>
+<li>As a user, I want to know the location, opening hours vis-à-vis classes in sync with my timeline and goals</li>
+<li>As a user, I want the gym instructor to track my progress</li>
+<li>As a user, I want to exercise rightly in an enabling environment</li>
+</ul>
+
+Gym Owners:
+<ul>
+<li>As a owner, I want my gym center to be desirable and accessible to users</li>
+<li>As a owner, I want to know what my contemporaries are doing and ways to improve</li>
+<li>As a owner, I want end-user feedback in shaping services to fit their needs more accurately</li>
+<li>As a owner, I want users to get notifications via newsletter when there are new offers</li>
+</ul>
+
+## TESTING
+Website was tested on <a href="https://gtmetrix.com">GTmetrix</a> and <a href="https://tools.pingdom.com">Pingdom</a> platforms
+
+<a href="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/speed-test.png"><img src="assets/images/speed-test.png" alt="speed-test"></a>
+
+## SCALABILITY
 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 --------
 
-Happy coding!
+
