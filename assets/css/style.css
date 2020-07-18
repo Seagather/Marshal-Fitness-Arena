@@ -303,14 +303,7 @@ body {
      padding-left: 40px;
      padding-right: 40px;
 }
- .map-overlay {
-     position: relative;
-     width: 100%;
-     height: 20rem;
-     top: 25rem;
-     margin-top: -18rem;
-     z-index: 1;
-}
+ 
  .i-map {
      font-size: 35px;
      color: #1EA362;
