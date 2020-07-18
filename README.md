@@ -1,5 +1,4 @@
 ![logo-color](https://seagather.github.io/Marshal-Fitness-Arena/assets/images/logo-color.png)
-<img scr="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/logo-color.png" width="420" height="270"> 
 <a href="https://seagather.github.io/Marshal-Fitness-Arena/assets/images/logo-color.png"><img src="assets/images/logo-color.png" alt="marshal-logo" width="420" height="270" style="margin: 0; background-size:cover;"></a>
 # MARSHAL FITNESS ARENA WEBSITE
 ## DESCRIPTION
