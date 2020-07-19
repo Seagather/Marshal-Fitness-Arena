@@ -16,7 +16,7 @@ Links to final version of the wireframe can be found below:
 * [Wireframe Final Version](https://seagather.github.io/Marshal-Fitness-Arena/wireframes/marshal-fitness-wireframe.pdf)
 
 ## UX
-The focus here is ensuring that users find value in what the gym provides, usable, useful, desirable, findable, credible and accessible
+The focus here is ensuring that users find value in what the gym provides, more so it was a deliberate act to make it usable, useful, desirable, findable, credible and accessible
 
 * Home Page: subtly displays an embed-responsive-16by9 video-style of unisex with dark overlay on top and the **About Us** information
 * Gallery Page: maximizes Bootstrap4 Carousel to showcase the training ground cum gym facilities and the company's ethos
@@ -81,7 +81,7 @@ Website was tested on [GTmetrix](https://gtmetrix.com) and [Pingdom](https://too
 ## ACKNOWLEDGEMENTS
 * Subtle display of video-style with dark overlay by [Felipe Alarcon](https://github.com/felipe-alarcon)
 * Special thanks to [Felipe Alarcon](https://github.com/felipe-alarcon), I appreciate more than you' ll ever know
-* Most sincere appreciation to my fellow students and Support team in Code Institute for their immeasurable feedback.
+* Most sincere appreciation to my fellow students and Support team at Code Institute for their immeasurable feedback.
 * I can't thank the Code Institute Slack community enough,yet another institution that never run out of ideas
 --------
 
