@@ -320,7 +320,7 @@ body {
      height: 37px;
      padding: 12px 0;
      border-radius: 40%;
-     font-size: 27px;
+     font-size: 25px;
      line-height: 15px;
      text-align: center;
      color: #fafafa;
@@ -423,21 +423,33 @@ body {
 }
 
 .video-overlay {
-    position: absolute;
-    top:50%;
-    left:50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index:9999999999;
-    flex-direction: column;
-    transform: translate(-50%, -50%);
-    animation: text 3s 1;
-     
-    
+     position: absolute;
+     top:50%;
+     left:50%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index:9999999999;
+     flex-direction: column;
+     transform: translate(-50%, -50%);
+     animation: text 3s 1;
+       
 }
 
+.video-overlay2 {
+     position: absolute;
+     top:50%;
+     left:50%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index:9999999999;
+     flex-direction: column;
+     transition: transform 3s ease, opacity .5s ease-out;
+     transform: translate(-50%, -50%);    
+}
 .background-video {
      z-index: -1;
      
@@ -457,7 +469,7 @@ body {
      border-collapse: separate;
      width: 10%;
      opacity: 1;
-     font-size: 15px;
+     font-size: 14px;
      position: relative;
      padding-bottom: 90px;
 }
@@ -541,6 +553,34 @@ body {
     left: 0;
     min-height: 750px;
 }
+
+.myClub-slogan p {
+    position: relative;
+    object-fit:cover;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-weight:bold;
+}
+.myClub {
+    position: relative;
+    object-fit:cover;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight:bold;
+    padding-top: 5px;
+    
+}
+.myClub-web {
+    position: relative;
+    object-fit:cover;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight:normal;
+}
+
 /* Jumbotron */
  .jumbotron {
      background: none;
@@ -576,8 +616,9 @@ body {
      opacity: 1;
 }
 
+
 @media screen and (max-width: 600px) {
-.video-text, .video-text2 {
+.video-text2  {
     font-size: 10px;
     }
 }
@@ -588,8 +629,20 @@ body {
     }
 }
 
+@media screen and (max-width: 600px) {
+.newsletter-text, .action-header, .action-sub, .free {
+    font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+.action-sub {
+    font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 480px) {
-.carousel-item {
+.gallery-img {
     height: 22rem;
     }
 }
@@ -598,7 +651,9 @@ body {
 .carousel-control-next, .carousel-control-prev, .d-block {
     height: 350px;
     object-fit: contain;
+ 
     }
+
 }
 
 
