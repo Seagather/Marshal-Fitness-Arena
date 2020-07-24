@@ -216,7 +216,7 @@ header {
 	cursor: pointer;
 	margin-bottom: 30px;
 }
-.btn-info:hover {
+.btn-infor:hover {
 	background-color: rgba(241, 109, 107, .7);
 	color: #fffff9;
 }
@@ -250,13 +250,24 @@ header {
 	color: #fffff9;
 }
 
-.btn-secondary {
+.btn-secondary, .btn-signUp {
     background-color: #EE6059;
+    color:#fffff9;
 }
 
 .btn-secondary:hover {
 	background-color: rgba(241, 109, 107, .7);
 	color: #fffff9;
+}
+
+.btn-signUp {
+    width: 100%; 
+}
+
+.btn-signUp:hover {
+	background-color: rgba(241, 109, 107, .7);
+	color: #fffff9; 
+    
 }
 
 /* --------------------------------------------------------End Buttons*/
@@ -265,10 +276,7 @@ header {
 .modal-content {
     background-color: #1d2527;
 	color: white;
-    border: none;
-    
-    
-    
+    border: none;   
 }
 
 .modal-header, .modal-body, .modal-footer {
