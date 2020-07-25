@@ -60,7 +60,96 @@
 						<img class="card-img-top" src="assets/images/hiit.jpeg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title"><strong>HIIT</strong></h5>
-							<p class="card-text">HIIT allows you to burn more calories than traditional exercise, reduce your blood sugar while you spend less time exercising and helps to put your blood pressure and heart rate in check.</p> <a href="contact.html" class="btn btn-light">Join Us Now!</a>
+							<p class="card-text">HIIT allows you to burn more calories than traditional exercise, reduce your blood sugar while you spend less time exercising and helps to put your blood pressure and heart rate in check.</p>
+							<div class="btn btn-light" data-toggle="modal" data-target="#Join-Us-modal">Join Us Now!</div>
+							<!-- Modal for signup form -->
+							<div class="modal fade" id="Join-Us-modal" tabindex="-1" role="dialog" aria-labelledby="Join-Us-modal" aria-hidden="true">
+								<div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title">Let's Get You Signed Up!</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<form action="submit">
+												<div class="form-group">
+													<label for="fname">First Name<span>*</span>
+													</label>
+													<input type="text" class="form-control" id="fname" placeholder="First Name" required>
+												</div>
+												<div class="form-group">
+													<label for="lname">Last Name<span>*</span>
+													</label>
+													<input type="text" class="form-control" id="lname" placeholder="Last Name" required>
+												</div>
+												<div class="form-group">
+													<label for="phone">Phone Number<span>*</span>
+													</label>
+													<input type="tel" class="form-control" id="phone" placeholder="tel" required>
+												</div>
+												<div class="form-group">
+													<label for="email">E-mail Address<span>*</span>
+													</label>
+													<input type="email" class="form-control" id="email" placeholder="Email" required>
+												</div>
+												<div class="form-group">
+													<input type="date" class="form-control">
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="radio" id="hiit" value="hiit" name="class_preference" required>
+													<label class="form-check-label" for="hiit">HIIT</label>
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="radio" id="bootcamp" value="bootcamp" name="class_preference" required>
+													<label class="form-check-label" for="bootcamp">BootCamp</label>
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="radio" id="cardio" value="cardio" name="class_preference" required>
+													<label class="form-check-label" for="cardio">Cardio</label>
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="radio" id="pilates" value="pilates" name="class_preference" required>
+													<label class="form-check-label" for="pilates">Pilates</label>
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="radio" id="spining" value="spining" name="class_preference" required>
+													<label class="form-check-label" for="spining">Spining</label>
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="radio" id="zumba" value="zumba" name="class_preference" required>
+													<label class="form-check-label" for="zumba">Zumba</label>
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-signUp" data-toggle="modal" data-target="#Submit">Submit</button>
+											<!-- Modal for feedback message delivery -->
+											<div class="modal fade" id="Submit" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="Submit" aria-hidden="true">
+												<div class="modal-dialog modal-sm" role="document">
+													<div class="modal-content">
+														<div class="modal-header">
+															<div class="modal-title" id="staticBackdropLabel"><i class="fas fa-thumbs-up"></i>
+															</div>
+															<a class="logo" href="index.html">
+																<img src="assets/images/logo.png" alt="marshal logo" />
+															</a>
+															<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+															</button>
+														</div>
+														<div class="modal-body">
+															<p class="text-muted">Thank you for contacting Us. we will get back to you shortly! for urgent enquiries please call us on</p> <a class="link" aria-label="Phone number" href="tel:+41-77-961-89-40"><i class="fas fa-phone"></i>  +41-77-961-89-40</a>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 							<div class="middle">
 								<div class="table-responsive mb-2">
 									<table>
@@ -87,7 +176,8 @@
 						<img class="card-img-top" src="assets/images/bootcamp.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title"><strong>BOOT CAMP</strong></h5>
-							<p class="card-text">Boot Camp weight loss programs are very effective at reducing excess body weight, improving cardiovascular endurance, increasing lean muscle mass and improving overall coordination and balance.</p> <a href="contact.html" class="btn btn-light">Join Us Now!</a>
+							<p class="card-text">Boot Camp weight loss programs are very effective at reducing excess body weight, improving cardiovascular endurance, increasing lean muscle mass and improving overall coordination and balance.</p>
+							<div class="btn btn-light" data-toggle="modal" data-target="#Join-Us-modal">Join Us Now!</div>
 							<div class="middle">
 								<div class="table-responsive mb-4">
 									<table>
@@ -114,7 +204,8 @@
 						<img class="card-img-top" src="assets/images/cardio.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title"><strong>CARDIO</strong></h5>
-							<p class="card-text">Cardio activities will strengthen your heart and muscles, boost your mood through the release of endorphins which are feel-good chemicals released by your brain and help you sleep better at night.</p> <a href="contact.html" class="btn btn-light">Join Us Now!</a>
+							<p class="card-text">Cardio activities will strengthen your heart and muscles, boost your mood through the release of endorphins which are feel-good chemicals released by your brain and help you sleep better at night.</p>
+							<div class="btn btn-light" data-toggle="modal" data-target="#Join-Us-modal">Join Us Now!</div>
 							<div class="middle">
 								<div class="table-responsive mb-4">
 									<table>
@@ -141,7 +232,8 @@
 						<img class="card-img-top" src="assets/images/pilate.jpeg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title"><strong>PILATES</strong></h5>
-							<p class="card-text">Pilate is good for stress management and relaxation of your neck. it will increase your lung capacity and circulation through deep breathing and enhance muscular control of your back and limbs.</p> <a href="contact.html" class="btn btn-light">Join Us Now!</a>
+							<p class="card-text">Pilate is good for stress management and relaxation of your neck. it will increase your lung capacity and circulation through deep breathing and enhance muscular control of your back and limbs.</p>
+							<div class="btn btn-light" data-toggle="modal" data-target="#Join-Us-modal">Join Us Now!</div>
 							<div class="middle">
 								<div class="table-responsive mb-4">
 									<table>
@@ -168,7 +260,8 @@
 						<img class="card-img-top" src="assets/images/spinning.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title"><strong>SPINNING</strong></h5>
-							<p class="card-text">Spinning is a low impact exercise which will help you build lean muscle definition, this is good for your joint and tendon health. Spinning also builds mental strength and fitness longevity.</p> <a href="contact.html" class="btn btn-light">Join Us Now!</a>
+							<p class="card-text">Spinning is a low impact exercise which will help you build lean muscle definition, this is good for your joint and tendon health. Spinning also builds mental strength and fitness longevity.</p>
+							<div class="btn btn-light" data-toggle="modal" data-target="#Join-Us-modal">Join Us Now!</div>
 							<div class="middle">
 								<div class="table-responsive mb-3">
 									<table>
@@ -195,7 +288,8 @@
 						<img class="card-img-top" src="assets/images/zumba.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title"><strong>ZUMBA</strong></h5>
-							<p class="card-text">Zumba is fun! you dance to the rhythm which build your endurance. it tones your entire body and it is a great way to relieve stress. This group activity will help you socialize at Marshal fitness Arena.</p> <a href="contact.html" class="btn btn-light">Join Us Now!</a>
+							<p class="card-text">Zumba is fun! you dance to the rhythm which build your endurance. it tones your entire body and it is a great way to relieve stress. This group activity will help you socialize at Marshal fitness Arena.</p>
+							<div class="btn btn-light" data-toggle="modal" data-target="#Join-Us-modal">Join Us Now!</div>
 							<div class="middle">
 								<div class="table-responsive mb-4">
 									<table>

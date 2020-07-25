@@ -276,7 +276,8 @@ header {
 .modal-content {
     background-color: #1d2527;
 	color: white;
-    border: none;   
+    border: none; 
+   
 }
 
 .modal-header, .modal-body, .modal-footer {

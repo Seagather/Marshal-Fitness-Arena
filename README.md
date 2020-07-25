@@ -27,7 +27,7 @@ The focus here is ensuring that users find value in what the gym provides, more 
 ![responsive](https://seagather.github.io/Marshal-Fitness-Arena/assets/images/responsive.png)
 
 The website has been built to look great on both mobile and desktop with the exception of adding Javascript to implement complex features and interactive elements to enhance user experience.
-The structure transforms to accordingly across all devices. The colors were essential to communicate visual aesthetic state of mind to viewers, subconciously creating the urge to know more and conciously the desire to gym at Marshal Fitness Arena.
+The structure transforms accordingly across all devices. The colors were essential to communicate visual aesthetic state of mind to viewers, subconciously creating the urge to know more and conciously the desire to gym at Marshal Fitness Arena.
 
 ## FEATURES
 * Background video on home page with dark overlay and and carousel-fade displaying motivational quotes to keep your eyes glued to the screen.
