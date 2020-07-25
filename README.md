@@ -46,7 +46,7 @@ the site uses less bandwith and load faster.
 * Fading overlay opacity effect on the card images upon hover displays the timetable for each class session.
 
 ## FEATURES LEFT TO IMPLEMENT 
-* There is this urge to compliment Javascript like adding interactivity and automation. Things like video players, interactive maps and form validatiion can foster user experience.
+* There is an urge to implement Javascript, like adding interactivity and automation. Things like video players, interactive maps and form validatiion can foster user experience.
 
 
 ## Visual identity
