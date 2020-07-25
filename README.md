@@ -26,6 +26,24 @@ The focus here is ensuring that users find value in what the gym provides, more 
 
 ![responsive](https://seagather.github.io/Marshal-Fitness-Arena/assets/images/responsive.png)
 
+The website has been built to look great on both mobile and desktop with the exception of adding Javascript to implement complex features and interactive elements to enhance user experience.
+The structure transforms to accordingly across all devices. The colors were essential to communicate visual aesthetic state of mind to viewers, subconciously creating the urge to know more and conciously the desire to gym at Marshal Fitness Arena.
+
+## FEATURES
+* Background video on home page with dark overlay and and carousel-fade displaying motivational quotes to keep your eyes glued to the screen.
+* Carousel-slide to showcase gym facilities in an enabling environment.
+* Call-to-action buttons strategically positioned and escalated to get you signed Up.
+* The call-to-action button triggers a chain reaction that cascades to the last point of call.
+* Upon clicking the [Get Started Now!](https://seagather.github.io/Marshal-Fitness-Arena/gallery.html) button below the Marshal Gallery page a modal form pops up with all the input components validated. 
+  clicking **Submit** further triggers a second modal with a post-feedback success reaction depicted with thumbs-up, a fontawesome icon.
+  The feedback modal can take you back to homepage upon clicking the web logo. 
+  Again there's a line below the feedback modal customized to launch a quick follow-up call or enquiries.
+* Fading overlay opacity effect on the card images upon hover displays the timetable for each class session.
+
+## FEATURES LEFT TO IMPLEMENT 
+* There is this urge to compliment Javascript like adding interactivity and automation. Things like video players, interactive maps and form validatiion can foster user experience.
+
+
 I used [Tinypng](https://tinypng.com) which utilised smart lossy compression techniques to reduce the file size of PNG and JPG files. This shrunk the image size to 41%.
 the site uses less bandwith and load faster.
 
