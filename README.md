@@ -26,8 +26,8 @@ The focus here is ensuring that users find value in what the gym provides, more 
 
 ![responsive](https://seagather.github.io/Marshal-Fitness-Arena/assets/images/responsive.png)
 
-The website has been built to look great on both mobile and desktop with the exception of adding Javascript to implement complex features and interactive elements to enhance user experience.
-The structure transforms accordingly across all devices. The colors were essential to communicate visual aesthetic state of mind to viewers, subconciously creating the urge to know more and conciously the desire to gym at Marshal Fitness Arena.
+The website has been built to look great on both mobile and desktop devices with the exception of adding Javascript to implement complex features and interactive elements to enhance user experience.
+The structure transforms accordingly across all devices. The colors were essential to communicate visual aesthetic state of mind to viewers, subconciously creating the urge to know more while conciously increasing the desire to gym at Marshal Fitness Arena.
 
 I used [Tinypng](https://tinypng.com) which utilised smart lossy compression techniques to reduce the file size of PNG and JPG files. This shrunk the image size to 41%.
 the site uses less bandwith and load faster.
@@ -71,8 +71,6 @@ Gym Owners:
 Website was tested on [GTmetrix](https://gtmetrix.com) and [Pingdom](https://tools.pingdom.com) platforms
 
 ![speed-test](https://seagather.github.io/Marshal-Fitness-Arena/assets/images/speed-test.png)
-
-## SCALABILITY
 
 ## TECHNOLOGIES
 **Languages:**

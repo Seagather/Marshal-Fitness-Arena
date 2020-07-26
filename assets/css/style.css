@@ -637,16 +637,7 @@ footer {
 
 /* ------------------------------------------- Media Queries */
 
-@media screen and (max-width: 600px) {
-	.video-text2 {
-		font-size: 10px;
-	}
-}
-@media screen and (max-width: 600px) {
-	.video-text {
-		font-size: 8px;
-	}
-}
+
 @media screen and (max-width: 600px) {
 	.newsletter-text,
 	.action-header,
@@ -684,5 +675,10 @@ footer {
 	.carousel-item img {
 		height: 350px;
 		object-fit: cover;
+        position: absolute;
 	}
 }
+
+
+
+
