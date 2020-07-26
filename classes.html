@@ -61,7 +61,9 @@
 						<div class="card-body">
 							<h5 class="card-title"><strong>HIIT</strong></h5>
 							<p class="card-text">HIIT allows you to burn more calories than traditional exercise, reduce your blood sugar while you spend less time exercising and helps to put your blood pressure and heart rate in check.</p>
-						<div><div class="btn btn-light" data-toggle="modal" data-target="#Join-Us-modal">Join Us Now!</div></div>
+							<div>
+								<div class="btn btn-light" data-toggle="modal" data-target="#Join-Us-modal">Join Us Now!</div>
+							</div>
 							<!-- Modal for signup form -->
 							<div class="modal fade" id="Join-Us-modal" tabindex="-1" role="dialog" aria-labelledby="Join-Us-modal" aria-hidden="true">
 								<div class="modal-dialog modal-sm modal-dialog-centered" role="document">
@@ -76,48 +78,48 @@
 												<div class="form-group">
 													<label for="fname">First Name<span>*</span>
 													</label>
-													<input type="text" class="form-control" id="fname" placeholder="First Name" required>
+													<input type="text" class="form-control" id="fname" placeholder="First Name" aria-label="first name" required>
 												</div>
 												<div class="form-group">
 													<label for="lname">Last Name<span>*</span>
 													</label>
-													<input type="text" class="form-control" id="lname" placeholder="Last Name" required>
+													<input type="text" class="form-control" id="lname" placeholder="Last Name" aria-label="last name" required>
 												</div>
 												<div class="form-group">
 													<label for="phone">Phone Number<span>*</span>
 													</label>
-													<input type="tel" class="form-control" id="phone" placeholder="tel" required>
+													<input type="number" class="form-control" id="phone" placeholder="tel" aria-label="phone number" required>
 												</div>
 												<div class="form-group">
 													<label for="email">E-mail Address<span>*</span>
 													</label>
-													<input type="email" class="form-control" id="email" placeholder="Email" required>
+													<input type="email" class="form-control" id="email" placeholder="Email" aria-label="Email" required>
 												</div>
 												<div class="form-group">
-													<input type="date" class="form-control">
+													<input type="date" class="form-control" aria-label="date" required>
 												</div>
 												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="radio" id="hiit" value="hiit" name="class_preference" required>
+													<input class="form-check-input" type="radio" id="hiit" value="hiit" name="class_preference" aria-label="hiit" required>
 													<label class="form-check-label" for="hiit">HIIT</label>
 												</div>
 												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="radio" id="bootcamp" value="bootcamp" name="class_preference" required>
+													<input class="form-check-input" type="radio" id="bootcamp" value="bootcamp" name="class_preference" aria-label="bootcamp" required>
 													<label class="form-check-label" for="bootcamp">BootCamp</label>
 												</div>
 												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="radio" id="cardio" value="cardio" name="class_preference" required>
+													<input class="form-check-input" type="radio" id="cardio" value="cardio" name="class_preference" aria-label="cardio" required>
 													<label class="form-check-label" for="cardio">Cardio</label>
 												</div>
 												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="radio" id="pilates" value="pilates" name="class_preference" required>
+													<input class="form-check-input" type="radio" id="pilates" value="pilates" name="class_preference" aria-label="pilates" required>
 													<label class="form-check-label" for="pilates">Pilates</label>
 												</div>
 												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="radio" id="spining" value="spining" name="class_preference" required>
+													<input class="form-check-input" type="radio" id="spining" value="spining" name="class_preference" aria-label="spining" required>
 													<label class="form-check-label" for="spining">Spining</label>
 												</div>
 												<div class="form-check form-check-inline">
-													<input class="form-check-input" type="radio" id="zumba" value="zumba" name="class_preference" required>
+													<input class="form-check-input" type="radio" id="zumba" value="zumba" name="class_preference" aria-label="zumba" required>
 													<label class="form-check-label" for="zumba">Zumba</label>
 												</div>
 											</form>
