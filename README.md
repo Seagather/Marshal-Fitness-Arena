@@ -110,33 +110,39 @@ Website was tested on [GTmetrix](https://gtmetrix.com) and [Pingdom](https://too
 Gym Users:
 * As a user, I want to register and enroll in a beffiting class session
     - The Hero image and colors will essentially communicate visual aesthetic state of mind to viewers, first time user would assimilate the front page
-    with various options of self explanatory navigation bar, each page provides a Call-to-action button for enrollment.
+    with various options of self explanatory navigation bar.
+    - The well articulated Classes page option will take a first time user to the various classes which has a Call-to-action button for enrollment on each class.
+    - Upon hovering on the inner card elements on the classes page, the picture provides the user with timetable information about desired class session.  
+    - The Gallery page as well has a Call-to-action button for enrollment.
 
 * As a user, I want to access the gym training grounds and facilities
     - This was achieved with a carousel displaying all the equipments in the gallery page.
+    - The class pages practically showcase the training grounds.
 
 * As a user, I want to know the location, opening hours vis-à-vis classes in sync with my timeline and goals.
     - The address and opening hours are visually on all the four pages of the website.
-    The map on the contact page also serve as a location guide.
-    Moreso the classes page would inform the user about each class session and suitable timeframe.
+    - The map on the contact page also serve as a location guide.
+    - Each page provides information about opening hours.
+    - Moreso the classes page would inform the user about each class session and suitable timeframe.
 
 * As a user, I want the gym instructor to track my progress.
     - This was sufficiently explained on the index page "About Us" caption, Gallery page, "the Why join us" details and the Classes Page in terms of modulation.
 * As a user, I want to exercise rightly in an enabling environment.
     - Again the gallery page showcase various options of facilities to achieve this desire.
-    The classes page pictures and concise synopsis of each class is succinct.
+    - The classes page pictures and concise synopsis of each class is succinct.
 
  Gym Owners:
 * As a owner, I want my gym center to be desirable and accessible to users.
     - The well detailed composition of the website speaks volume, the colors, the captions, the call to action button 
     on each page strategically positioned and escalated to get you signed Up.
-     The Carousel-slide showcase gym facilities in an enabling environment, plus it is opened 24/7.
+    - The Carousel-slide showcase gym facilities in an enabling environment, plus it is opened 24/7.
+    - Each page has a clickable Email address and Phone number at the footer "contact details" for accessibility.
 
 * As a owner, I want to know what my contemporaries are doing and ways to improve.
     - The Feedback news from users on the Contact page comment section and the social media platforms depicted with icons on each footer of the page will generate resources for improvement.
 * As a owner, I want end-users feedback in shaping services to fit their needs more accurately.
     - The "connect with us" social media icons were clearly displayed on each page for followers and feedbacks.
-    The the last contact page also has a contact form with a validating pop up modal assuring users upon submission.
+    - The contact page has a contact form with a validating pop up modal assuring users upon submission of their enquires or request.
 * As a owner, I want users to get notifications via newsletter when there are new offers.
     - The newsletter subscription option is provided for users on all pages of the website to cascade vital information and promos 
     which will promote the site and boost revenue. 
@@ -144,20 +150,25 @@ Gym Users:
 ## Further Testing
 
 * All links were tested. Internal links all work. External links all work and open in new window.
-* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-* The website was test run on a variety of devices such as Desktop, Laptop, iPhoneXR, Samsung Note3 & Nokia.
+* The Website was tested on Google Chrome, Internet Explorer, Firefox, Microsoft Edge and Safari browsers.
+* The website was test run on a variety of devices such as Desktop, Laptop, iPhoneXR, Samsung Note3, Samsung Tab2 & Nokia.
 * The site was test run by friends and colleagues for possible user experience issues and bugs.
 * All the pages are responsive on all screen sizes.
 * The call to action buttons links as expected and the modal form pops up with all the input components validated.
 * Each submit button further triggers a second modal with a post-feedback success message and the feedback modal can also take you back to homepage upon clicking the web logo.
-* The Email and Phone at each footer "contact details" are clickable for users.
+* The Email and Phone number at each footer "contact details" are clickable for users.
 * All Codes were validated through the Markup Validator to erase syntax error.
    
 ## Bugs
 
-* The initially plan was to use video display as homepage but because of the inability to stop/disable the video without using Javascript, I had to recourse to using hero image as homepage.
+* The hero image tends to display with a lower horizontal scrollbar on Microsoft Edge browser.
 * The homepage is not properly displaying on iPhoneXR. The call to action button shifts towards the left with an opening gap between the contact details.
 * The navbar toggler was not displaying properly initially, I fixed this by setting the margin to mr-4 and created a fixed size for it.
+
+## Removed features
+
+* The Initially plan was to use video display as homepage but because of the inability to stop/disable the video without using Javascript. 
+  This feature was unattainable without Languages outside the scope of this project. I had to recourse to using hero image as homepage.
 
 ## TECHNOLOGIES
 **Languages:**
