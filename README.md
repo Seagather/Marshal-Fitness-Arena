@@ -45,7 +45,7 @@ Links to final version of the wireframe can be found below:
 ## UX
 The focus here is ensuring that users find value in what the gym provides, more so it was a deliberate act to make it usable, useful, desirable, findable, credible and accessible
 
-* Home Page: subtly displays hero image with dark overlay on top and the **About Us** information
+* Home Page: subtly displays video with dark overlay on top and the **About Us** information
 * Gallery Page: maximizes Bootstrap4 Carousel to showcase the training ground cum gym facilities and the company's ethos
 * Classes Page: a Grid system with inner card elements presents different classes and benefits
 * Contact Page: Contact page contains a contact form for users with a google Map location
@@ -203,7 +203,7 @@ Gym Users:
 * [LogoMaker:](https://logomaker.com) was used for the logo design.
 
 ## ACKNOWLEDGEMENTS
-* Subtle display of homepage image with dark overlay by [Felipe Alarcon](https://github.com/felipe-alarcon)
+* Subtle display of homepage video with dark overlay by [Felipe Alarcon](https://github.com/felipe-alarcon)
 * Header inspiration from [Jumbodock](https://jumboduck.github.io/Polygonal-Brewing-Co/)
 * Special thanks to [Felipe Alarcon](https://github.com/felipe-alarcon), I appreciate more than you' ll ever know
 * Most sincere appreciation to my fellow students and Support team at Code Institute for their immeasurable feedback.
